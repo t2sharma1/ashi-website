@@ -9,7 +9,7 @@ function Contact() {
         <h1 className="text-3xl font-bold text-center text-green-800 mb-6">Contact Me</h1>
 
         <form
-          name="contact"
+          name="contact" netlify
           method="POST"
           data-netlify="true"
           data-netlify-recaptcha="true"
