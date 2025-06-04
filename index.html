@@ -7,6 +7,16 @@
     <title>Ashi Sharma</title>
   </head>
   <body>
+    <!-- 👇 Add the fallback form here -->
+    <form name="contact" netlify netlify-recaptcha hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <textarea name="message"></textarea>
+      <div data-netlify-recaptcha="true"></div>
+    </form>
+
+    <!-- React will mount here -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
